@@ -4,8 +4,8 @@ import Button from "@/components/Button";
 
 export default function Navbar() {
   return (
-    <nav className="w-5xl rounded-full justify-content-center bg-white shadow-md fixed top-2 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+    <nav className="w-5xl max-w-9/10 rounded-full justify-content-center overflow-hidden bg-white shadow-lg fixed top-2 left-1/2 transform -translate-x-1/2 z-50">
+      <div className="max-w-9/10 mx-auto px-2 py-2 flex items-center justify-between">
 
         {/* Menu */}
         <div className="hidden md:flex gap-6">
