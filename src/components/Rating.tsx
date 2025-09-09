@@ -29,7 +29,7 @@ const Rating: React.FC<RatingProps> = ({ value = 0, onChange }) => {
           <FaStar
             size={20}
             className={`transition-colors duration-200 ${
-              star <= (hover || rating) ? 'text-yellow-400' : 'text-gray-300'
+              star <= (hover || rating) ? 'text-yellow-400' : 'text-blue-900 opacity-20'
             }`}
           />
         </button>

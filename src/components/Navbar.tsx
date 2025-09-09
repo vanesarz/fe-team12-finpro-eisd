@@ -4,7 +4,7 @@ import Button from "@/components/Button";
 
 export default function Navbar() {
   return (
-    <nav className="w-5xl max-w-9/10 rounded-full justify-content-center overflow-hidden bg-white shadow-lg fixed top-2 left-1/2 transform -translate-x-1/2 z-50">
+    <nav className="w-5xl max-w-9/10 rounded-full justify-content-center overflow-hidden bg-white shadow-lg fixed top-2 left-1/2 transform -translate-x-1/2 z-50 scroll-hidden">
       <div className="max-w-9/10 mx-auto px-2 py-2 flex items-center justify-between">
 
         {/* Menu */}

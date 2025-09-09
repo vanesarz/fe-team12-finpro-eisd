@@ -41,12 +41,12 @@ export default function LandingPage() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="w-full mt-70 py-20 bg-white mx-auto px-6">
+      <section id="features" className="w-full mt-70 py-20 bg-white mx-auto px-0">
         <h2 className="text-lg md:text-2xl font-bold text-center text-gray-900">
           Discover More Accessible Places for Everyone!
         </h2>
         <p className="mt-6 mx-auto text-xs md:text-sm text-center text-gray-600 max-w-2xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
 
         <div className="mt-10 overflow-x-auto gap-6 py-2">
@@ -106,7 +106,7 @@ export default function LandingPage() {
             <p className="mt-6 mx-auto text-xs md:text-sm text-center text-gray-600 max-w-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             </p>
-            <div className="bg-blue-50 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow w-full h-full p-12 mt-6">
+            <div className="bg-gradient-to-b from-white to-blue-50 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow w-full h-full p-12 mt-6">
               <h4 className="text-xs md:text-base font-regular text-left text-gray-900 mb-2">Find the location</h4>
               <SearchBar />
               <h4 className="text-xs md:text-base font-regular text-left text-gray-900 mb-2 mt-6">Rate the location accessibility</h4>
