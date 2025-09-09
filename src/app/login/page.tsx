@@ -5,7 +5,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function LoginPage() {
-  const [form, setForm] = useState({
+  const [form, setForm] = useState<{ email: string; password: string }>({
     email: "",
     password: "",
   });
@@ -14,7 +14,7 @@ export default function LoginPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // sementara console.log dulu, nanti bisa dikirim ke backend
     console.log("Login Data:", form);
